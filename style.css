@@ -78,4 +78,6 @@ hr {
 }
 .blog-author a {
     text-decoration: none;
+    font-size: 16px;
+    color: #562EFF;
 }
