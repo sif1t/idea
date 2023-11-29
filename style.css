@@ -63,31 +63,69 @@ hr {
 }
 
 /* top blog styles */
-.blogs{
+.blogs {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 10px;
 }
-.blog{
+
+.blog {
     display: flex;
 }
-.blog  img {
+
+.blog img {
     width: 224px;
     height: 127px;
 }
-.blog-info{
+
+.blog-info {
     margin-left: 16px;
 }
-.blog-title{
+
+.blog-title {
     font-size: 20px;
 }
-.blog-author{
-    color: #9F9F9F; 
+
+.blog-author {
+    color: #9F9F9F;
     font-size: 16px;
 }
+
 .blog-author a {
     text-decoration: none;
     font-size: 16px;
     color: #562EFF;
 }
-/* courses styles */
+
+/*---------------------
+    courses styles
+----------------------- */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 25px ;
+}
+.course .course-banner img {
+    width: 266px;
+    height: 141px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.field{
+    color: #FFC014 ;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+
+/*-----------------
+   media queries
+ --------------- */
+ /* mobile devices */
+ 
