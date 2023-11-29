@@ -9,13 +9,17 @@ body {
 
 main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .container {
     background: #FFFFFF;
     width: 870px;
     padding: 30px;
+    margin-top: 21px;
+    border-radius: 5px;
 }
 
 hr {
@@ -86,3 +90,4 @@ hr {
     font-size: 16px;
     color: #562EFF;
 }
+/* courses styles */
